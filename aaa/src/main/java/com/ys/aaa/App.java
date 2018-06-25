@@ -14,7 +14,7 @@ public class App
 {
 	@Test(dataProvider = "dp")
 	  public void f(Integer n, String s) {
-		  System.out.println("哈哈:"+s);
+		  System.out.println("哈哈111111:"+s);
 	  }
 	  @AfterMethod
 	  public void afterMethod() {
