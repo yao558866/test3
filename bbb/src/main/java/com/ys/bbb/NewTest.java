@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 public class NewTest {
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
-	  System.out.println("靠靠靠111："+s);
+	  System.out.println("靠靠靠111111111111111："+s);
   }
 
   @DataProvider
