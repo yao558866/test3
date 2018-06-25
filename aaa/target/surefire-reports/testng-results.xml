@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47" started-at="2018-06-25T20:59:39Z" finished-at="2018-06-25T20:59:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47" started-at="2018-06-25T20:59:39Z" finished-at="2018-06-25T20:59:39Z">
+      <class name="com.ys.aaa.App">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-06-26T04:59:39Z" finished-at="2018-06-26T04:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="f" duration-ms="1" started-at="2018-06-26T04:59:39Z" data-provider="dp" finished-at="2018-06-26T04:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="f" duration-ms="13" started-at="2018-06-26T04:59:39Z" data-provider="dp" finished-at="2018-06-26T04:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-26T04:59:39Z" finished-at="2018-06-26T04:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-26T04:59:39Z" finished-at="2018-06-26T04:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ys.aaa.App@2cfb4a64]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-06-26T04:59:39Z" finished-at="2018-06-26T04:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ys.aaa.App -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
