@@ -7,28 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 
 public class NewTest {
-  @Test(dataProvider = "dp")
-  public void f(Integer n, String s) {
-	  System.out.println("哈哈:"+s);
-  }
-  @AfterMethod
-  public void afterMethod() {
-  }
-
-
-  @DataProvider
-  public Object[][] dp() {
-    return new Object[][] {
-      new Object[] { 1, "a" },
-      new Object[] { 2, "b" },
-    };
-  }
-  @BeforeClass
-  public void beforeClass() {
-  }
-
-  @AfterClass
-  public void afterClass() {
-  }
+  
 
 }
