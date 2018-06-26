@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21708" started-at="2018-06-26T08:55:11Z" finished-at="2018-06-26T08:55:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21708" started-at="2018-06-26T08:55:11Z" finished-at="2018-06-26T08:55:33Z">
+      <class name="com.ys.bbb.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ys.bbb.NewTest@1ef7fe8e]" name="beforeClass" is-config="true" duration-ms="12" started-at="2018-06-26T16:55:11Z" finished-at="2018-06-26T16:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.ys.bbb.NewTest@1ef7fe8e]" name="f" duration-ms="21630" started-at="2018-06-26T16:55:11Z" data-provider="dp" finished-at="2018-06-26T16:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gggggggggggggg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ys.bbb.NewTest@1ef7fe8e]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-06-26T16:55:33Z" finished-at="2018-06-26T16:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ys.bbb.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
